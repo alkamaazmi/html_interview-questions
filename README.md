@@ -63,9 +63,10 @@ The HTML contains six types of headings. `<h1>` defines the most important headi
 
 ### Block-level Elements
 
-* Block-level elements start from a new line and consume the full width of the page available.
+* A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.
+* A block-level element always takes up the full width available
 
-###  Inline and elements 
+###  Inline elements 
 
 * Inline elements just take up the space that is absolutely necessary for the content and does not start from a new line.
 
