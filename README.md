@@ -179,6 +179,16 @@ HTML tables allow web developers to arrange data into rows and columns.
 </table>
 
 `````
+### HTML Table Borders
+```html
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+```
+
+
 ### Note :
 * The `<caption>` tag defines a table caption or title. The `<caption>` tag must be inserted immediately after the `<table>` tag.
 
