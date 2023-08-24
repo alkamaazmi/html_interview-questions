@@ -180,12 +180,12 @@ HTML tables allow web developers to arrange data into rows and columns.
 
 `````
 ### HTML Table Borders
+
 ```html
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-
 ```
 
 
@@ -198,7 +198,42 @@ table, th, td {
 
 * `colspan` attribute is used to specify the number of columns that a cell should span horizontally.
 
+```html
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>57</td>
+  </tr>
+</table>
+```
 * `rowspan` attribute is used to specify the number of rows that a cell should span vertically.
+
+```html
+<table>
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+</tr>
+</table>
+
+```
 
 ### The `class` attribute :
 
